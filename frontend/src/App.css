@@ -58,7 +58,7 @@
 
 
 #line hr{
-  border-color: #72903C;
+  border-color: #184e95;
   opacity: 0.3;
 }
 
@@ -130,7 +130,7 @@ text-align: center;
 }
 
 #test {
-  background-color: #9AC33C
+  background-color: #295fa6
 }
 
 .gm-style-iw{
@@ -193,6 +193,24 @@ html, body {
 }
 #main_menu {
   width: 100%;
+}
+
+#line{
+  clear: both;
+}
+
+#seller{
+  float: left;
+  font-size: 1.5em;
+  padding-bottom: 15px;
+}
+#address{
+  float: right;
+  font-size: 1.5em;
+}
+#data{
+  text-align: center;
+  padding: 15px ;
 }
 
 
