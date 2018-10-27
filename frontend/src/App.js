@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import { googleMapsConfig } from "./config/googleMapsConfig";
+import { googleMapsConfig } from "./components/config/googleMapsConfig";
 import $ from 'jquery'
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Map from './components/Map';
@@ -28,22 +28,14 @@ class App extends Component {
         });
 
 
-        var contentString1 = '<div id="content" style="width: 400px; margin: 15px; color: #fff;" >'+
-            '<div id="user_box">'+
-            '<div id="user_desc">User</div>'+
-            '<div id="user">towelchorizo21</div>'+
-            '</div>'+
 
-            '<div id="rating_box">'+
-            '<div id="rating_desc">Rate</div>'+
-            '<div id="rating">*****</div>'+
-            '</div>'+
-            '<div style="clear: both"></div>'+
-            '<div id="line"> <hr/></div>'+
-            '<div id="description_desc">Description</div>'+
-            '<div id="description">I broke my leg and I need someone to do my shopping. Who\'s got time?</div>'+
-            '<div id="price">17 $</div>'+
-            '<div id="button"><a href="#" class="myButton">Accept</a></div>'+
+        var contentString1 = '<div id="content" style="width: 400px; margin: 15px; color: #fff;" >'+
+            '<div id="seller"> transactons[0].title </div>'+
+            '<div id="address">transactons[0].adr</div>'+
+            '<div id="line"><hr></div>'+
+            '<div id="data">transactons[0].date</div>'+
+            '<div id="price"> transactons[0].price</div>'+
+
 
             '</div>';
 
@@ -79,7 +71,7 @@ class App extends Component {
         window.google.maps.event.addListener(infowindow1, 'domready', function() {
 
             var iwOuter = $('.gm-style-iw');
-            iwOuter.css("background-color","#9AC33C")
+            iwOuter.css("background-color","#295fa6")
 
             var iwBackground = iwOuter.prev();
 
