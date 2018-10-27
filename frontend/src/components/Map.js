@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import MenuExamplePointing from "../components/MenuExamplePointing";
-import {googleMapsConfig} from "../config/googleMapsConfig";
+import {googleMapsConfig} from "./config/googleMapsConfig";
 import $ from 'jquery'
 
 class Map extends Component {
