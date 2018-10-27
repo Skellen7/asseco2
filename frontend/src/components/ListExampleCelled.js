@@ -16,22 +16,43 @@ class ListExampleCelled extends React.Component {
             <List.Item onClick={this.handleCheck}>
                 <Image avatar src={require('../assets/icons/dollarIconDark.png')} />
                 <List.Content>
-                    <List.Header>H&M Zakupy</List.Header>
-                    200.00$
+                    <List.Header>Karlik Reymonta 17</List.Header>
+                    9.00zł
                 </List.Content>
             </List.Item>
             <List.Item>
                 <Image avatar src={require('../assets/icons/dollarIconDark.png')} />
                 <List.Content>
-                    <List.Header>McDonald Szewska 2</List.Header>
-                    15.20$
+                    <List.Header>KFC Basztowa 8</List.Header>
+                    8zł
                 </List.Content>
             </List.Item>
             <List.Item>
                 <Image avatar src={require('../assets/icons/dollarIconDark.png')} />
                 <List.Content>
-                    <List.Header>Atm Rynek Główny 20</List.Header>
-                    500.00$
+                    <List.Header>Cafe św Tomasza 17</List.Header>
+                    12zł
+                </List.Content>
+            </List.Item>
+            <List.Item>
+                <Image avatar src={require('../assets/icons/dollarIconDark.png')} />
+                <List.Content>
+                    <List.Header>Craftownia św Warzyńca 22</List.Header>
+                    49zł
+                </List.Content>
+            </List.Item>
+            <List.Item>
+                <Image avatar src={require('../assets/icons/dollarIconDark.png')} />
+                <List.Content>
+                    <List.Header>McDonald's Szewska 8</List.Header>
+                    12zł
+                </List.Content>
+            </List.Item>
+            <List.Item>
+                <Image avatar src={require('../assets/icons/dollarIconDark.png')} />
+                <List.Content>
+                    <List.Header>Pull & Bear Pawia 5</List.Header>
+                    99zł
                 </List.Content>
             </List.Item>
         </List>
